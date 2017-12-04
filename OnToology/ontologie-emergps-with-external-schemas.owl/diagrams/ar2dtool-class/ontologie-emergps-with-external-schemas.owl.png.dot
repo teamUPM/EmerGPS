@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://dbpedia.org/ontology/district" "http://schema.org/Place" ; /*classes style*/
+	"base:isAddressedTo" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://schema.org/Place" -> "http://dbpedia.org/ontology/district" [ label = "base:isLocatedIn" ];
+	"http://schema.org/Place" -> "owl:Thing" [ label = "base:isAddressedTo" ];
+
+}

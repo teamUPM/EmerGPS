@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://schema.org/Embassy" "http://linkedgeodata.org/ontology/WaterFountain" "http://schema.org/Hospital" "http://schema.org/latitude" "http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality" "http://schema.org/streetAddress" "http://schema.org/Park" "http://www.disit.org/km4city/schema#Green_areas" "http://linkedgeodata.org/page/ontology/DrinkingWater" "http://schema.org/longitude" "https://schema.org/MedicalClinic" "http://schema.org/FireStation" "http://dbpedia.org/ontology/district" "http://schema.org/Place" ; /*classes style*/
+	"http://schema.org/latitude" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/FireStation" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://linkedgeodata.org/ontology/WaterFountain" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Hospital" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Embassy" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/MedicalClinic" -> "http://schema.org/Hospital" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/longitude" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://linkedgeodata.org/page/ontology/DrinkingWater" -> "http://linkedgeodata.org/ontology/WaterFountain" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Park" -> "http://www.disit.org/km4city/schema#Green_areas" [ label = "rdfs:subClassOf" ];
+	"http://www.disit.org/km4city/schema#Green_areas" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/streetAddress" -> "http://dbpedia.org/ontology/district" [ label = "rdfs:subClassOf" ];
+
+}

@@ -1,0 +1,84 @@
+<http://www.semanticweb.org/santiago/ontologies/2017/9/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo
+<http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Place> .
+# 
+# http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn
+<http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Place> .
+<http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/district> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/district
+<http://dbpedia.org/ontology/district> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://linkedgeodata.org/ontology/WaterFountain
+<http://linkedgeodata.org/ontology/WaterFountain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/WaterFountain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://linkedgeodata.org/page/ontology/DrinkingWater
+<http://linkedgeodata.org/page/ontology/DrinkingWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/page/ontology/DrinkingWater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://linkedgeodata.org/ontology/WaterFountain> .
+# 
+# http://schema.org/Embassy
+<http://schema.org/Embassy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Embassy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://schema.org/FireStation
+<http://schema.org/FireStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/FireStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://schema.org/Hospital
+<http://schema.org/Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://schema.org/Park
+<http://schema.org/Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.disit.org/km4city/schema#Green_areas> .
+# 
+# http://schema.org/Place
+<http://schema.org/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://schema.org/latitude
+<http://schema.org/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://schema.org/longitude
+<http://schema.org/longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://schema.org/streetAddress
+<http://schema.org/streetAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/streetAddress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/district> .
+# 
+# http://www.disit.org/km4city/schema#Green_areas
+<http://www.disit.org/km4city/schema#Green_areas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.disit.org/km4city/schema#Green_areas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality
+<http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> .
+# 
+# https://schema.org/MedicalClinic
+<https://schema.org/MedicalClinic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://schema.org/MedicalClinic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Hospital> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
