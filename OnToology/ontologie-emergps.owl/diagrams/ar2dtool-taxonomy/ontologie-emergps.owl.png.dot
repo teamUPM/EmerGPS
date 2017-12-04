@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Longitude" "http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital" "http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain" "http://www.semanticweb.org/santiago/ontologies/2017/9/#FireStation" "http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas" "base:District" "http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality" "http://www.semanticweb.org/santiago/ontologies/2017/9/#DrinkingWater" "base:Places" "http://www.semanticweb.org/santiago/ontologies/2017/9/#Park" "http://www.semanticweb.org/santiago/ontologies/2017/9/#Embassy" "base:Latitude" "base:Street" "http://www.semanticweb.org/santiago/ontologies/2017/9/#Clinic" ; /*classes style*/
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#Clinic" -> "http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital" [ label = "rdfs:subClassOf" ];
+	"base:Street" -> "base:District" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#FireStation" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"base:Latitude" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#Park" -> "http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#DrinkingWater" -> "http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#Embassy" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"base:Longitude" -> "base:Places" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas" -> "base:Places" [ label = "rdfs:subClassOf" ];
+
+}

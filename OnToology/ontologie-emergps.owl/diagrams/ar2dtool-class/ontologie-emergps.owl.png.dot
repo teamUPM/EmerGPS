@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:District" "base:Places" "base:Street" ; /*classes style*/
+	"base:isAddressedTo" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:Places" -> "base:District" [ label = "base:isLocatedIn" ];
+	"base:Places" -> "base:Street" [ label = "base:isAddressedTo" ];
+
+}
