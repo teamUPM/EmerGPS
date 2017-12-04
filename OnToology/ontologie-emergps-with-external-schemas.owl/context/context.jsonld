@@ -1,0 +1,58 @@
+{
+  "@context" : {
+    "Embassy" : {
+      "@id" : "http://schema.org/Embassy"
+    },
+    "FireStation" : {
+      "@id" : "http://schema.org/FireStation"
+    },
+    "longitude" : {
+      "@id" : "http://schema.org/longitude"
+    },
+    "isAddressedTo" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo",
+      "@type" : "@id"
+    },
+    "district" : {
+      "@id" : "http://dbpedia.org/ontology/district"
+    },
+    "latitude" : {
+      "@id" : "http://schema.org/latitude"
+    },
+    "MedicalClinic" : {
+      "@id" : "https://schema.org/MedicalClinic"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "AirQuality" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality"
+    },
+    "Place" : {
+      "@id" : "http://schema.org/Place"
+    },
+    "DrinkingWater" : {
+      "@id" : "http://linkedgeodata.org/page/ontology/DrinkingWater"
+    },
+    "Green_areas" : {
+      "@id" : "http://www.disit.org/km4city/schema#Green_areas"
+    },
+    "streetAddress" : {
+      "@id" : "http://schema.org/streetAddress"
+    },
+    "Hospital" : {
+      "@id" : "http://schema.org/Hospital"
+    },
+    "WaterFountain" : {
+      "@id" : "http://linkedgeodata.org/ontology/WaterFountain"
+    },
+    "Park" : {
+      "@id" : "http://schema.org/Park"
+    },
+    "isLocatedIn" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn",
+      "@type" : "@id"
+    }
+  }
+}
