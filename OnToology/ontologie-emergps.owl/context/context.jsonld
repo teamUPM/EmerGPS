@@ -1,0 +1,58 @@
+{
+  "@context" : {
+    "Longitude" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/Longitude"
+    },
+    "Embassy" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#Embassy"
+    },
+    "District" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/District"
+    },
+    "FireStation" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#FireStation"
+    },
+    "Street" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/Street"
+    },
+    "isAddressedTo" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo",
+      "@type" : "@id"
+    },
+    "Fountain" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain"
+    },
+    "Places" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/Places"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "AirQuality" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality"
+    },
+    "DrinkingWater" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#DrinkingWater"
+    },
+    "Green_areas" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas"
+    },
+    "Latitude" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/Latitude"
+    },
+    "Clinic" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#Clinic"
+    },
+    "Hospital" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital"
+    },
+    "Park" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/#Park"
+    },
+    "isLocatedIn" : {
+      "@id" : "http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn",
+      "@type" : "@id"
+    }
+  }
+}
